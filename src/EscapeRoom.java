@@ -5,6 +5,7 @@ import java.awt.event.ActionListener;
 
 public class EscapeRoom {
 
+
     static JTextField starter;
     private static JFrame window;
     private static JPanel panel;
@@ -24,6 +25,7 @@ public class EscapeRoom {
         room3 = new JButton("Room3");
         room4 = new JButton("Room4");
         JLabel starter = new JLabel("Welcome to the Escape Room");
+        System.out.println("Their are 4 rooms with something to do in them. You will need to complete that task in order to leave the room. Please pick a room to see your Task.");
 
         window.setSize(700, 600);
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
